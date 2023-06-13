@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #6be198;
+}
+
+.Edwin {
+  border-radius: 100px;
+  border: 5px solid #297524;
+  transform: translateY(10px);
+}
+
+ul {
+  border: 2px solid #409172;
+  border-radius: 12px;
+  padding: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #409172;
+}
+
+ul {
+  display: flex;
+  justify-content: first baseline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+li a:hover {
+  background-color: #0eb961;
+  border-radius: 12px;
+  transition: 0.3s ease-out;
+}
+
+.active {
+  background-color: #265e44;
+  border-radius: 16px;
+  transition: 0.3s ease-out;
+
+}
+
+/* div {
+  column-count: 3;
+}
+ */
+.row{
+  display:flex;
+}
+
+.insta_logo {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  transform: translateX(-555px);
+}
+
+.gmail {
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
+  transform: translateX(-755px);
+}
+
+.GC {
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
+}
+
+.column a{
+  transform: translateY(755px);
+}
+
+@media screen and (max-width: 600px) {
+  .example {
+    display: none;
+  }
+  img{
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 8000px) {
+  body{
+    background-color: #6be198;
+  }
+}
+div {
+  font-family: 
+  font-stretch: expanded;
+}
+
